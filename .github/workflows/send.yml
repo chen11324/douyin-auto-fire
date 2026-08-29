@@ -8,9 +8,10 @@ on:
         type: boolean
         default: false
   #使用github actions的日程 可以把下面的这三行代码注释删掉  用外部的不用管 
+  
   schedule:
-     - cron: "10 17 * * *"
-       timezone: "Asia/Shanghai"
+        - cron: "20 9 * * *"
+
 
 concurrency:
   group: douyin-daily-sender
